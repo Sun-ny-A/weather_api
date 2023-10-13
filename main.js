@@ -1,4 +1,4 @@
-//const API_KEY='bbad0dc35936eaaae3f5be4d4252eec9'
+
 
 console.log('Weather API')
 
