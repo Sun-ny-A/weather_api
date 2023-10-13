@@ -1,0 +1,86 @@
+body {
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.weather-info {
+    background-color: rgb(185, 199, 218);
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#form {
+    margin: auto;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#enterCitytext {
+    font: arial;
+    font-weight: bold;
+    font-size:20px;
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#getWeather {
+    font: arial;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin: 10px auto;
+    background-color: rgb(185, 199, 218);
+    
+    
+}
+
+.category {
+    font-weight: bold;
+    font: arial;
+    color: white;
+    font-size: 20px;
+}
+
+#highTempTitle {
+    background-color: red;
+    padding: 15px;
+}
+
+#lowTempTitle {
+    background-color: blue;
+    padding: 15px;
+}
+
+#forecastTitle {
+    background-color: teal;
+    padding: 15px;
+}
+
+#humidityTitle {
+    background-color: green;
+    padding: 15px;
+}
+
+.value {
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+}

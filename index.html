@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <script src="secrets.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <h1 id="h1"> Today's Forecast</h1>
+    <img id="rain" src="rain.jpg" alt="raining" style="display: none;">
+    <img id="sun" src="sun.jpg" alt="sunny" style="display: none;">
+    <img id="cloud" src="cloud.jpg" alt="cloudy" style="display: none;">
+     <div class="container">
+        <form id="form">
+            <label id="enterCitytext" for="enterCity">Enter City:</label>
+            <input type="text" id="cityInput" name="city" required>
+            <button id="getWeather" type="submit">Get Weather</button>
+        </form>
+        <div class="weather-info">
+            <div id="highTempTitle" class="category">High Temperature</div>
+            <div id="highTemp" class="value"></div>
+        </div>
+        <div class="weather-info">
+            <div id="lowTempTitle" class="category">Low Temperature</div>
+            <div id="lowTemp" class="value"></div>
+        </div>
+        <div class="weather-info">
+            <div id="forecastTitle" class="category">Forecast</div>
+            <div id="forecast" class="value"></div>
+        </div>
+        <div class="weather-info">
+            <div id="humidityTitle" class="category">Humidity</div>
+            <div id="humidity" class="value"></div>
+        </div>
+    </div>
+</body>
+</html>
