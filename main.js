@@ -3,7 +3,7 @@
 console.log('Weather API')
 
 async function requestAPI(city) {
-    const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=bbad0dc35936eaaae3f5be4d4252eec9`)
+    const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
     if (res.ok) {
         const data = await res.json()
         console.log(data)
